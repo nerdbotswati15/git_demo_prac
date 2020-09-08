@@ -1,0 +1,27 @@
+HOW TO PUSH YOUR CODE TO GITHUB?
+
+step 1- create a repository in your github
+step 2- open the project and copy the directory and paste it in 
+        git bash terminal 
+cd "paste your directory here"
+
+step3 - git init
+give that above command
+
+step 4 - git add helloworld.py (specify your file name instead of hello world.py)
+
+step 5- git status
+
+step 6- git commit -m "your message here"
+
+step7- go to your created repository and copy the URL like https://github.com/... u can see something like this copy it.
+
+step 8- add the copied url in git bash by giving the terminal
+git remote add origin 'paste here the url'
+
+step9- git push -u origin master
+it pushes your file.
+
+step 10 - u can see once ur code is pushed in you repo 
+
+hope u liked it :)
